@@ -1,0 +1,33 @@
+# Nombre del proyecto y descripción
+name: peliculas2024
+description: "A new Flutter project."
+
+# No se publica en ningún lugar específico
+publish_to: 'none'
+
+# Versión del proyecto y requisitos del entorno
+version: 0.1.0
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+# Dependencias del proyecto
+dependencies:
+  card_swiper: ^3.0.1  # Dependencia para implementar el swiper de tarjetas
+  flutter:
+    sdk: flutter
+  http: ^1.2.0  # Dependencia para realizar solicitudes HTTP
+  provider: ^6.1.1  # Dependencia para el manejo de estados
+
+# Dependencias de desarrollo
+dev_dependencies:
+  flutter_lints: ^2.0.0  # Linter para análisis estático del código Flutter
+  flutter_test:
+    sdk: flutter  # Dependencia para pruebas unitarias de Flutter
+
+# Configuración específica de Flutter
+flutter:
+  uses-material-design: true  # Utiliza el diseño Material de Flutter
+
+  # Archivos de recursos del proyecto
+  assets:
+    - assets/  # Directorio que contiene los recursos del proyecto
