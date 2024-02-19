@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
         title: Center(child: Text('Películas en cine')), // Título centrado
       ),
       body: Column( // Cuerpo de la pantalla, una columna para apilar widgets verticalmente
-        children: [CardSwiper()], // Contiene un CardSwiper para mostrar las películas
+        children: [CardSwiper(),MovieSlider()], // Contiene un CardSwiper para mostrar las películas
       ),
     );
   }
